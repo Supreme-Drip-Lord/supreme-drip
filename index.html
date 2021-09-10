@@ -1,0 +1,243 @@
+<html>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@500&display=swap');
+        html {
+            background: #252221;
+            font-family: 'Urbanist', sans-serif;
+            color: white;
+            scroll-behavior: smooth;
+        }
+        #navbar {
+            background: transparent;
+            color: white;
+            font-family: 'Urbanist', sans-serif;
+            position: absolute;
+            display: flex;
+
+        }
+        
+        #navbar h1 {
+            text-align: left;
+            font-size: 40px;
+        }
+        #navbar a {
+            
+            text-align: right;
+            margin-top: 40px;
+            margin-left: 20%;
+            color: white;
+            text-decoration: none;
+        }
+        #major h1 {
+            font-size: 100px;
+            text-align: center;
+            margin-top: 100px;
+        }
+        #major{
+            font-size: 30px;
+            text-align: center;
+        }
+
+        h2 {
+            font-size: 60px;
+            text-align: center;
+        }
+        #aboutmeh {
+            margin-top: 20%;
+        }
+        #aboutmeh p {
+            text-align: left;
+            font-size: 22px;
+            border: 2px;
+            margin-left: 15px;
+            margin-right: auto;
+            border-radius: 10px;
+            border-color: white;
+            border-left-width: 5px;
+            border-left: 12px solid black;
+            background: white;
+            color: black;
+            padding-top: 40px;
+            padding-left: 10px;
+            padding-bottom: 40px;
+            padding-right: 10px;
+
+        }
+        #skills table {
+            border: transparent;
+            margin-left: auto;
+            margin-right: auto;
+            
+            
+            
+
+        }
+        #skills td {
+            background-color: white;
+            color: black;
+            text-align: center;
+            font-size: 22px;
+            border-radius: 10px;
+            border-left: 12px solid black;
+            padding-left: 10px;
+            padding-top: 10px;
+            padding-right: 10px;
+            margin-left: 50%;
+            
+        }
+        #skills img {
+            width: 200px;
+            height: 200px;
+        }
+        #contactus form {
+            text-align: center;
+            font-size: 25px;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 10px;
+        }
+        #contactus input {
+           width: 70%;
+           height: 60px;
+           background: white;
+           color: black;
+           border: 2px solid white;
+           border-radius: 5px;
+           
+        } 
+        button {
+            font-size: 25px;
+            height: 70px;
+            width: 200px;
+            font-family: 'Urbanist', sans-serif;
+            border: 0px;
+            border-radius: 10px;
+            background-color: white;
+            color: black;
+            text-decoration: none;
+     
+
+        }
+        #message {
+            height: 180px;
+        }
+        a {
+            color: black;
+            text-decoration: none;
+        }
+        #end {
+            border-top: 3px solid white;
+            color: white;
+            font-size: 24px;
+            text-align: center;
+            margin-left: 0%;
+            margin-right: 0%;
+            margin-bottom: 0%;
+            padding-top: 10px;
+            padding-bottom: 10px;
+
+        }
+
+        
+       
+    </style>
+    <head>
+        <title>
+            index
+        </title>
+    </head>
+    <div id="navbar">
+        <h1><b>AK</b></h1>
+        <a href="./index.html">Home</a>
+        <a href="#aboutmeh">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#contactus">Contact</a>
+    </div>
+    <br><br>
+    <div id="major">
+        <h1>Hi I am Aquib!</h1>
+        
+            A person who is doing coding just for fun.....
+        
+    </div>
+    <div id="aboutmeh">
+        <h2><b>About Me</b></h2>
+        <p>
+            Hola soy <i>Dora</i>, I am Aquib. I just code for fun.....To be honest you cannot define a man in words <br>
+            but still I would do that.<br>
+            Cool, Cares about a selected group of people, Has an existential crisis and does not like most tiktokers who invite him to their house expecting him to wear some wierd stuff for a video <br>
+            In formal words, antisocial, coder, tech enthusiast etc.
+        </p>
+
+    </div>
+    <div id="skills">
+        <h2>
+            <b>
+                My Skills
+            </b>
+        </h2>
+        <table>
+            <tr>
+                <td>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/640px-HTML5_Badge.svg.png">
+                    <br>
+                   <b> HTML5 </b>
+                </td>
+          
+                <td>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/640px-CSS3_logo.svg.png">
+                    <br>
+                    <b>CSS</b>
+                </td>
+              
+                <td>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/640px-Python-logo-notext.svg.png">
+                    <br>
+                    <b>Python</b>
+                </td>
+            </tr>
+            
+            <tr>
+                <td>
+                    <img src="https://www.fullfreecoding.com/wp-content/uploads/2020/11/CapCut.png">
+                    <br>
+                    <b>Video Editing (capcute)</b>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div id="contactus">
+        <h2>
+            <b>
+                Contact Me
+
+            </b>
+        </h2>
+        <form action=".\form action.txt">
+            <label for="name">Name<br></label>
+            <input type="text" id="name" required>
+            <br><br>
+            <label for="mobile">Mobile No.<br></label>
+            <input type="number" id="mobile" required>
+            <br><br>
+            <label for="email">Mail<br></label>
+            <input type="email" id="email" required>
+            <br><br>
+            <label for="message">Message<br></label>
+            <input type="text" id="message">
+            <br><br><br>
+            <button>
+                <a href="https://supreme-drip-lord.github.io/SUPREME-DRIP-LORD-EREN-THE-GREAT-YAEGAR-CHAN-SAMA/">Submit</a>
+            </button>
+        </form>
+    </div>
+    <div id="end">
+        <footer>
+            <p>Made with time pass! 
+                <br>
+                Aquib
+            </p>
+        </footer>
+    </div>
+
+</html>
